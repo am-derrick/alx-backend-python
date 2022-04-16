@@ -1,8 +1,11 @@
-from typing import Union, Tuple
+#!/usr/bin/env python3
+"""Type checked using mypy"""
+
+from typing import Union, Tuple, List
 
 
-def zoom_array(lst: Tuple, factor: Union[int, float] = 2) -> Tuple:
-    zoomed_in: Tuple = [
+def zoom_array(lst: Tuple, factor: Union[int, float] = 2) -> List:
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
     ]
