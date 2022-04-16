@@ -1,4 +1,4 @@
-#!/usr/env pyhton3
+#!/usr/env python3
 """type-annotated function to_str"""
 
 
