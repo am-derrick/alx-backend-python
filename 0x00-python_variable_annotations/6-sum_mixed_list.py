@@ -1,4 +1,4 @@
-#!/usr/bin/env pyhton3
+#!/usr/bin/env python3
 """type-annotated mixed list"""
 
 from typing import List, Union
